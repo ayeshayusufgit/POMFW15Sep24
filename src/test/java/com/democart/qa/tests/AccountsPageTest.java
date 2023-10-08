@@ -45,6 +45,7 @@ public class AccountsPageTest extends BaseTest {
 
 	@Test(priority = 5, dataProvider = "getSearchData")
 	public void searchTest(String searchTerm) {
+		System.out.println(searchTerm);
 		Assert.assertTrue(accountsPage.doSearch(searchTerm));
 	}
 
