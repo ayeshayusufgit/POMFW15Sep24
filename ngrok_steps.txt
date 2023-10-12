@@ -16,7 +16,6 @@ To start a HTTP tunnel forwarding to your local port 80, run this next:
 
 ngrok http 80
 ==============================================
-
 ==============================================
 To configure a webhook
 Log into git with username/password
@@ -42,4 +41,7 @@ f)Click on the Add Webhook button
 g)The HTTP Requests of the NGROK dashboard should have the below if successful
 POST /github-webhook/          200 OK
  
-h)This means the the connection is successful between NGROK and Jenkins       
+h)This means the the connection is successful between NGROK and Jenkins
+=====================================================
+To shutdown NGROK
+ctrl + c       
